@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+:root {
+    --shadow-color-max:#778ee2;
+    --shadow-color-medium:#91a7e9;
+    --shadow-color-minimal:#abbff1;
+    --light-color-medium :#c4d8f8;
+    --light-color-max:#e4f1fc ;
+    --light-color-font:#657481;
+    --shadow-color-font:#222222;
+    --primary-font: 'Poppins', sans-serif;
+}
+
+#perfil-card {
+    border: none;
+}
+
+.my-title-primary {
+    font-family: var(--primary-font);
+    color: var(--shadow-color-font);
+}
+
+.my-title-secondary {
+    font-family: var(--primary-font);
+    color: var(--light-color-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#my-button {
+    color: var(--light-color-max);
+    background: var(--shadow-color-max);
+}
+
+.spacement-content {
+    margin: 0 250px;
+}
+
