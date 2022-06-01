@@ -5,14 +5,15 @@
     --shadow-color-medium:#91a7e9;
     --shadow-color-minimal:#abbff1;
     --light-color-medium :#c4d8f8;
-    --light-color-max:#e4f1fc;
+    --light-color-max:#fafdff;
     --light-color-font:#657481;
     --shadow-color-font:#222222;
     --primary-font: 'Poppins', sans-serif;
 }
 
-#perfil-card {
-    border: none;
+
+.container {
+    background-color: var(--light-color-max);
 }
 
 .my-title-primary {
@@ -27,6 +28,11 @@
     font-weight: bold;
 }
 
+.my-font {
+    font-family: var(--primary-font);
+
+}
+
 #my-button {
     color: var(--light-color-max);
     background: var(--shadow-color-max);
@@ -36,3 +42,28 @@
     margin: 0 250px;
 }
 
+#button-group {
+    max-width: 300px;
+}
+
+.custom-shape-divider-top-1654119853 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1654119853 svg {
+    position: relative;
+    display: block;
+    width: calc(192% + 1.3px);
+    height: 292px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1654119853 .shape-fill {
+    fill: #4d7fb8;
+}
