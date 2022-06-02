@@ -16,37 +16,7 @@
     background-color: var(--light-color-max);
 }
 
-.my-title-primary {
-    font-family: var(--primary-font);
-    color: var(--shadow-color-font);
-}
-
-.my-title-secondary {
-    font-family: var(--primary-font);
-    color: var(--light-color-font);
-    font-size: 13px;
-    font-weight: bold;
-}
-
-.my-font {
-    font-family: var(--primary-font);
-
-}
-
-#my-button {
-    color: var(--light-color-max);
-    background: var(--shadow-color-max);
-}
-
-.spacement-content {
-    margin: 0 250px;
-}
-
-#button-group {
-    max-width: 300px;
-}
-
-.custom-shape-divider-top-1654119853 {
+.wave__container {
     position: absolute;
     top: 0;
     left: 0;
@@ -56,7 +26,7 @@
     z-index: -1;
 }
 
-.custom-shape-divider-top-1654119853 svg {
+.wave__container svg {
     position: relative;
     display: block;
     width: calc(192% + 1.3px);
@@ -64,6 +34,25 @@
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1654119853 .shape-fill {
-    fill: #4d7fb8;
+.wave__container .shape-fill {
+    fill: var(--shadow-color-max);
 }
+
+.__title--primary {
+    font-family: var(--primary-font);
+    color: var(--shadow-color-font);
+}
+
+.__title--secondary {
+    font-family: var(--primary-font);
+    color: var(--light-color-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.__font {
+    font-family: var(--primary-font);
+
+}
+
+
