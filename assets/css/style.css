@@ -8,7 +8,7 @@
     --light-color-max:#fafdff;
     --light-color-font:#657481;
     --shadow-color-font:#222222;
-    --shadow-color-font:#222222;
+    --shadow-light-font: #444c55;
     --primary-font: 'Poppins', sans-serif;
 }
 
@@ -66,24 +66,30 @@
 }
 
 
-.titulo{
+.title__divider{
     display: flex;
-    justify-content: center; /* centraliza o texto horizontalmente */
-    align-items: center; /* centraliza as linhas verticalmente */
-    margin: 30px 0; /* 30px -> margens superior e inferior */
+    justify-content: center;
+    align-items: center; 
+    margin: 30px 0;
  }
  
- .titulo::before,
- .titulo::after{
+ .title__divider::before,
+ .title__divider::after{
     content: '';
     position: relative;
-    height: 1px; /* espessura das linhas */
-    background: rgb(167, 167, 167); /* cor das linhas */
-    min-width: 50px; /* largura mínima das linhas */
-    flex-grow: 1; /* distribui a largura das linhas por igual */
+    height: 1px; 
+    background: rgb(167, 167, 167);
+    min-width: 50px;
+    flex-grow: 1; 
  }
  
- .titulo span{
-    color: rgb(51, 51, 51); /* cor do texto */
-    padding: 0 15px; /* distancia do texto às linhas */
+ .title__divider span{
+    color: rgb(51, 51, 51); 
+    padding: 0 15px;
+ }
+
+ .skills--font {
+    font-family: var(--primary-font);
+    color: var(--shadow-light-font);
+
  }
