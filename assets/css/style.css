@@ -8,15 +8,11 @@
     --light-color-max:#fafdff;
     --light-color-font:#657481;
     --shadow-color-font:#222222;
+    --shadow-color-font:#222222;
     --primary-font: 'Poppins', sans-serif;
 }
 
-
-.container {
-    background-color: var(--light-color-max);
-}
-
-.wave__container {
+.wave__ {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,7 +22,7 @@
     z-index: -1;
 }
 
-.wave__container svg {
+.wave__ svg {
     position: relative;
     display: block;
     width: calc(192% + 1.3px);
@@ -34,7 +30,7 @@
     transform: rotateY(180deg);
 }
 
-.wave__container .shape-fill {
+.wave__ .shape-fill {
     fill: var(--shadow-color-max);
 }
 
@@ -50,9 +46,44 @@
     font-weight: bold;
 }
 
+.__title--terciary {
+    font-family: var(--primary-font);
+    color: var(--shadow-color-font);
+}
+
 .__font {
     font-family: var(--primary-font);
 
 }
 
+.__buttons--background {
+    background:var(--shadow-color-max);
+}
 
+#profile__button__download:hover {
+    background:var(--shadow-color-minimal);
+    transition:all 0.3s ease;
+}
+
+
+.titulo{
+    display: flex;
+    justify-content: center; /* centraliza o texto horizontalmente */
+    align-items: center; /* centraliza as linhas verticalmente */
+    margin: 30px 0; /* 30px -> margens superior e inferior */
+ }
+ 
+ .titulo::before,
+ .titulo::after{
+    content: '';
+    position: relative;
+    height: 1px; /* espessura das linhas */
+    background: rgb(167, 167, 167); /* cor das linhas */
+    min-width: 50px; /* largura mínima das linhas */
+    flex-grow: 1; /* distribui a largura das linhas por igual */
+ }
+ 
+ .titulo span{
+    color: rgb(51, 51, 51); /* cor do texto */
+    padding: 0 15px; /* distancia do texto às linhas */
+ }
