@@ -9,21 +9,29 @@ for(let i = 0; i < projectsData.length; i++){
     element.setAttribute('class', 'my-4');
     element.innerHTML = `
     <div class="card shadow-sm">
-      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-        role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-          dy=".3em">${projectsData[i].length}</text>
-      </svg>
+      <img src="${projectsData[i].previewImg}"></img>
       <div class="card-body">
-        <p class="card-text"></p>
-        <div class="d-flex justify-content-between
-                align-items-center">
+        <h5 class="card-title __title--primary fw-bold">${projectsData[i].title}</h5>
+        <p class="card-text __font">${projectsData[i].description}</p>
+        <div class="input-group input-group-sm mb-3">
+          <button class="btn border border-opacity-25 d-flex align-items-center" type="button"><embed
+              class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/link-solid.svg" /></button>
+          <input type="text" class="form-control fs-6 text-muted" aria-label="Example text with button addon"
+            aria-describedby="button-addon1" value="${projectsData[i].linkView}" disabled>
         </div>
+        <div class="input-group input-group-sm mb-3">
+          <button class="btn border border-opacity-25  d-flex align-items-center" type="button"><embed
+              class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/github-grey.svg" /></button>
+          <input type="text" class="form-control fs-6 text-muted" value="${projectsData[i].linkRepo}" disabled>
+        </div>
+        <div class="d-flex justify-content-center">
+          <embed class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/html5-brands.svg"/>
+          <embed class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/css3-alt-brands.svg"/>
+          <embed class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/js-brands.svg"/>
+        <div>
       </div>
     </div>`;
     row.appendChild(element);
-    console.log(element)
+    console.log(element);
 }
-
 
