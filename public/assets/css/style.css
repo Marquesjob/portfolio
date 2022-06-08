@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
 
 :root {
-    --shadow-color-max:#778ee2;
-    --shadow-color-medium:#91a7e9;
-    --shadow-color-minimal:#abbff1;
-    --light-color-medium :#c4d8f8;
-    --light-color-max:#fafdff;
-    --light-color-font:#657481;
-    --shadow-color-font:#222222;
+    --shadow-color-max: #778ee2;
+    --shadow-color-medium: #91a7e9;
+    --shadow-color-minimal: #abbff1;
+    --light-color-medium: #c4d8f8;
+    --light-color-max: #fafdff;
+    --light-color-font: #657481;
+    --shadow-color-font: #222222;
     --shadow-light-font: #444c55;
     --primary-font: 'Poppins', sans-serif;
 }
@@ -57,39 +57,45 @@
 }
 
 .__buttons--background {
-    background:var(--shadow-color-max);
+    background: var(--shadow-color-max);
 }
 
 #profile__button__download:hover {
-    background:var(--shadow-color-minimal);
-    transition:all 0.3s ease;
+    background: var(--shadow-color-minimal);
+    transition: all 0.3s ease;
 }
 
 
-.title__divider{
+.title__divider {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin: 100px 0;
- }
- 
- .title__divider::before,
- .title__divider::after{
+}
+
+.title__divider::before,
+.title__divider::after {
     content: '';
     position: relative;
-    height: 1px; 
+    height: 1px;
     background: rgb(167, 167, 167);
     min-width: 50px;
-    flex-grow: 1; 
- }
- 
- .title__divider span{
-    color: rgb(51, 51, 51); 
-    padding: 0 15px;
- }
+    flex-grow: 1;
+}
 
- .skills--font {
+.title__divider span {
+    color: rgb(51, 51, 51);
+    padding: 0 15px;
+}
+
+.profile__icons-hover:hover {
+    stroke: var(--shadow-color-max);
+    transition: all 0.3s ease;
+}
+
+.skills--font {
     font-family: var(--primary-font);
     color: var(--shadow-light-font);
 
- }
+}
+
