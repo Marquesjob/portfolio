@@ -25,9 +25,9 @@ for(let i = 0; i < projectsData.length; i++){
           <input type="text" class="form-control fs-6 text-muted" value="${projectsData[i].linkRepo}" disabled>
         </div>
         <div class="d-flex justify-content-center">
-          <embed class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/html5-brands.svg"/>
-          <embed class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/css3-alt-brands.svg"/>
-          <embed class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/js-brands.svg"/>
+          <img class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/html5-brands.svg"/>
+          <img class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/css3-alt-brands.svg"/>
+          <img class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/js-brands.svg"/>
         <div>
       </div>
     </div>`;
