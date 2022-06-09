@@ -1,7 +1,6 @@
 import projectsData from "../data/projectsData.js";
 
-const row = document.getElementById('dinamic-row');
-
+const projects__dinamic__row = document.getElementById('projects__dinamic__row');
 
 for(let i = 0; i < projectsData.length; i++){
     let element = document.createElement('div');
@@ -24,14 +23,8 @@ for(let i = 0; i < projectsData.length; i++){
               class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/github-grey.svg" /></button>
           <input type="text" class="form-control fs-6 text-muted" value="${projectsData[i].linkRepo}" disabled>
         </div>
-        <div class="d-flex justify-content-center">
-          <img class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/html5-brands.svg"/>
-          <img class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/css3-alt-brands.svg"/>
-          <img class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/js-brands.svg"/>
-        <div>
       </div>
     </div>`;
-    row.appendChild(element);
+    projects__dinamic__row.appendChild(element);
     console.log(element);
 }
-
