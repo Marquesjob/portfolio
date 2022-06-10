@@ -88,14 +88,18 @@
     padding: 0 15px;
 }
 
+.skills--font {
+    font-family: var(--primary-font);
+    color: var(--shadow-light-font);
+}
+
 .profile__icons-hover:hover {
     stroke: var(--shadow-color-max);
     transition: all 0.3s ease;
 }
 
-.skills--font {
-    font-family: var(--primary-font);
-    color: var(--shadow-light-font);
-
+a:hover {
+    text-decoration: none;
 }
+
 

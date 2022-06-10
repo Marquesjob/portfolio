@@ -2,6 +2,7 @@ import projectsData from "../data/projectsData.js";
 
 const projects__dinamic__row = document.getElementById('projects__dinamic__row');
 
+
 for(let i = 0; i < projectsData.length; i++){
     let element = document.createElement('div');
     element.setAttribute('class', 'col');
