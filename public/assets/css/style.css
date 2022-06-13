@@ -25,7 +25,7 @@
 .wave__ svg {
     position: relative;
     display: block;
-    width: calc(192% + 1.3px);
+    width: 4200px; /*removida responsividade das waves*/
     height: 292px;
     transform: rotateY(180deg);
 }
@@ -60,7 +60,7 @@
     background: var(--shadow-color-max);
 }
 
-#profile__button__download:hover {
+#profile__button__download:hover  {
     background: var(--shadow-color-minimal);
     transition: all 0.3s ease;
 }
@@ -102,4 +102,6 @@ a:hover {
     text-decoration: none;
 }
 
-
+.projects__button:hover {
+    cursor: none;
+}
