@@ -1,6 +1,6 @@
 export default [
     {   
-        title:'TESTE DEPLOY AUTOMÁTICO',
+        title:'TESTE DEPLOY AUTOMÁTICO 1',
         previewImg: 'https://picsum.photos/295/250  ',
         linkRepo: 'https://github.com/Marquesjob/portfolio',
         linkView: 'https://patrick-b-marques.web.app/',
