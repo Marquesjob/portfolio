@@ -13,18 +13,21 @@ for (let i = 0; i < projectsData.length; i++) {
       </div>
       <img id="cardImg" src="${projectsData[i].previewImg}" class="border-0"></img>
       <div class="card-body">
-        <p class="card-text __font">${projectsData[i].description}</p>
+     
         <div class="input-group input-group-sm mb-3">
-          <a id="projects__button__linkIcon" class="btn border-0 border-opacity-25 d-flex align-items-center" type="button">
+          <a href="${projectsData[i].linkView}" id="projects__button__linkIcon" class="btn border-0 border-opacity-25 d-flex align-items-center" type="button">
             <img  id="projects__linkIcon" class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/link-solid.svg" />
           </a>
           <input type="text" class="form-control fs-6 text-muted" value="${projectsData[i].linkView}" disabled>
         </div>
         <div class="input-group input-group-sm mb-3">
-          <a id="projects__button__gitIcon" class="btn border-0 border-opacity-25  d-flex align-items-center">
+          <a href="${projectsData[i].linkRepo}" id="projects__button__gitIcon" class="btn border-0 border-opacity-25  d-flex align-items-center">
             <img id="projects__gitIcon" class="d-inline mx-2 svg-sizing" src="./assets/svg/github-grey.svg"/>
           </a>
           <input type="text" class="form-control fs-6 text-muted" value="${projectsData[i].linkRepo}" disabled>
+        </div>
+        <div class="form-floating p-0">
+          <textarea class="form-control pt-2 fw-light" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" disabled>${projectsData[i].description}</textarea>
         </div>
       </div>
     </div>`;
