@@ -4,11 +4,13 @@
     --shadow-color-max: #778ee2;
     --shadow-color-medium: #91a7e9;
     --shadow-color-minimal: #abbff1;
+    --shadow-color-font: #222222;
+    --shadow-light-font: #444c55;
     --light-color-medium: #c4d8f8;
     --light-color-max: #fafdff;
     --light-color-font: #657481;
-    --shadow-color-font: #222222;
-    --shadow-light-font: #444c55;
+    --light-link-efect: #cecece;
+  
     --primary-font: 'Poppins', sans-serif;
 }
 
@@ -70,7 +72,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 0;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .title__divider::before,
@@ -105,3 +108,10 @@ a:hover {
 .projects__button:hover {
     cursor: none;
 }
+
+
+#projects__button__linkIcon:hover, #profile__button__wpp:hover, #projects__button__gitIcon:hover {
+    background-color: var(--light-link-efect);
+    transition: all 0.3s ease;
+}
+
