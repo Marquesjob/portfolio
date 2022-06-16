@@ -15,13 +15,13 @@ for (let i = 0; i < projectsData.length; i++) {
       <div class="card-body">
      
         <div class="input-group input-group-sm mb-3">
-          <a href="${projectsData[i].linkView}" id="projects__button__linkIcon" class="btn border-0 border-opacity-25 d-flex align-items-center">
+          <a href="${projectsData[i].linkView}" target="blank" id="projects__button__linkIcon" class="btn border-0 border-opacity-25 d-flex align-items-center">
             <img  id="projects__linkIcon" class="d-inline mx-2 svg-sizing icon-effects" src="./assets/svg/link-solid.svg" />
           </a>
           <input type="text" class="form-control fs-6 text-muted" value="${projectsData[i].linkView}" disabled>
         </div>
         <div class="input-group input-group-sm mb-3">
-          <a href="${projectsData[i].linkRepo}" id="projects__button__gitIcon" class="btn border-0 border-opacity-25  d-flex align-items-center">
+          <a href="${projectsData[i].linkRepo}" target="blank" id="projects__button__gitIcon" class="btn border-0 border-opacity-25  d-flex align-items-center">
             <img id="projects__gitIcon" class="d-inline mx-2 svg-sizing" src="./assets/svg/github-grey.svg"/>
           </a>
           <input type="text" class="form-control fs-6 text-muted" value="${projectsData[i].linkRepo}" disabled>

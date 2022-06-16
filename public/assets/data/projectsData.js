@@ -34,5 +34,4 @@ export default [
         linkView: 'https://site-apperia.web.app/',
         description: 'Site Apperia, feito com HTML CSS, aplicando conceitos de responsividade e metodologia BEM',
     },
-   
 ]
