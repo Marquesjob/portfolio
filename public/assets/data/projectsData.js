@@ -32,6 +32,6 @@ export default [
         previewImg: 'https://picsum.photos/295/250',
         linkRepo: 'https://github.com/Marquesjob/curso-alura-layouts-responsivos',
         linkView: 'https://site-apperia.web.app/',
-        description: 'Site Apperia, feito com HTML CSS, aplicando conceitos de responsividade e metodologia BEM',
+        description: 'Site Apperia, feito com HTML CSS, aplicando conceitos de responsividade e metodologia BEM (Layout pensado e projetado para dispositivos Mobile).',
     },
 ]
