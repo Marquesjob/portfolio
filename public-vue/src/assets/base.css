@@ -9,8 +9,37 @@
     --light-color-medium: #c4d8f8;
     --light-color-max: #fafdff;
     --light-color-font: #657481;
-    --light-link-efect: #cecece;
+    --light-link-efect: #e3e7ff;
 
     --primary-font: 'Poppins', sans-serif;
+}
+
+.wave__ {
+    transition: none;
+    animation: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.wave__ svg {
+    transition: none;
+    animation: none;
+    position: relative;
+    display: block;
+    width: 4200px; /*removida responsividade das waves*/
+    height: 292px;
+    transform: rotateY(180deg);
+}
+
+.wave__ .shape-fill {
+    animation: none;
+    transition: none;
+    fill: var(--shadow-color-max);
+    
 }
 

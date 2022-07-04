@@ -5,8 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 import "@/assets/base.css"
 
+
+
 const app = createApp(App)
 
 app.use(router)
+
 
 app.mount('#app')
