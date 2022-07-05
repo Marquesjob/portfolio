@@ -12,8 +12,8 @@ export default {
     <div class="projects__description col-6 text-center mx-auto my-0  __font ">
       Todos os projetos contidos no portfólio estão no <strong>GitHub</strong> e hospedados no <strong>Firebase</strong>
       para a visualizaçao do conteúdo e do código.
-      Você pode clicar nos <strong>icones</strong> para ser redirecionado ao <strong>Repositório</strong> do projeto ou
-      para o <strong>site do projeto</strong> visualiza-lo ;)
+      Você pode clicar nos <strong>botões</strong> para ser redirecionado ao <strong>Repositório</strong> do projeto ou
+      para o <strong>site do projeto</strong> visualiza-lo <strong>;)</strong>
     </div>
   </div>
   <Swiper />

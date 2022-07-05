@@ -23,27 +23,27 @@ export default {
 <template>
 	<div class="container">
 		<Profile />
-		<Divider :title="this.projetos"/>
+		<Divider :title="this.projetos" />
 	</div>
 	<Projects />
 </template>
 
 <style>
-	* {
+* {
 
-		animation-name: fadeInOpacity;
-		animation-iteration-count: 1;
-		animation-timing-function: ease;
-		animation-duration: 0.6s;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease;
+	animation-duration: 0.6s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
 	}
 
-	@keyframes fadeInOpacity {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
+	100% {
+		opacity: 1;
 	}
+}
 </style>

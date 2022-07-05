@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div class=" container title__divider __title--primary fs-5 my-5">
+    <div class=" container title__divider __title--primary fs-5 mb-5">
         <span class="fs-3">{{ title }}</span>
     </div>
 </template>
@@ -14,6 +14,7 @@
 
 <style>
     .title__divider {
+        margin-top: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
