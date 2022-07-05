@@ -21,13 +21,13 @@
       </div>
 
       <div id="profile__icons" class="transition d-flex justify-content-center">
-            <a href="https://www.instagram.com/s44gaz/" class="mx-2">
+            <a href="https://www.instagram.com/s44gaz/" target="_blank" class="mx-2">
                   <Iconinstagram id="Iconinstagram"/>
             </a>
-            <a href="https://www.linkedin.com/in/patrick-belfort-91253b200/"  class="mx-2">
+            <a href="https://www.linkedin.com/in/patrick-belfort-91253b200/" target="_blank" class="mx-2">
                   <Iconlinkedin id="Iconlinkedin"/>
             </a>
-            <a href="https://github.com/Marquesjob"  class="mx-2">
+            <a href="https://github.com/Marquesjob" target="_blank" class="mx-2">
                   <Icongithub id="Icongithub"/>
             </a> 
       </div>
@@ -72,7 +72,8 @@
                         <strong class="fw-bold">DB</strong>.
                         possuo 2 experiências como FreeLancer Front-End utilizando
                         tecnologias
-                        como <strong class="fw-bold"> Angular</strong> e <strong class="fw-bold">Ionic</strong>.
+                        como <strong class="fw-bold"> Angular</strong> e <strong class="fw-bold">Ionic</strong><br/>
+                        (para saber mais sobre as experiências, baixe o curriculo).
                   </p>
             </div>
       </div>
@@ -81,7 +82,7 @@
         <a style="text-decoration: none;" href="./assets/doc/Curriculo.pdf" class="d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-5 mx-auto" download="Curriculo Patrick Belfort">
           <button id="profile__button__download" class="btn btn-light border-0" type="submit"><p class="__font fs-6 p-0 m-0">Baixar Curriculo</p></button>
         </a>
-        <a href=" https://wa.me/552199228610" class=" d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-2 mx-auto ">
+        <a href=" https://wa.me/552199228610" target="_blank" class=" d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-2 mx-auto ">
           <button id="profile__button__wpp" class="btn btn-light border-0" type="button"><Iconwhatsapp id="Iconwhatsapp"/></button>
         </a>
       </div>
