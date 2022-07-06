@@ -9,7 +9,7 @@ export default {
 </script>
 <template>
   <div class="container mx-auto projects__description row my-0">
-    <div class="projects__description col-6 text-center mx-auto my-0  __font ">
+    <div class="projects__description col-sm-12 col-lg-6 text-center mx-auto my-0  __font ">
       Todos os projetos contidos no portfólio estão no <strong>GitHub</strong> e hospedados no <strong>Firebase</strong>
       para a visualizaçao do conteúdo e do código.
       Você pode clicar nos <strong>botões</strong> para ser redirecionado ao <strong>Repositório</strong> do projeto ou
