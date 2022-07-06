@@ -22,14 +22,14 @@
 
       <div id="profile__icons" class="transition d-flex justify-content-center">
             <a href="https://www.instagram.com/s44gaz/" target="_blank" class="mx-2">
-                  <Iconinstagram id="Iconinstagram"/>
+                  <Iconinstagram id="Iconinstagram" />
             </a>
             <a href="https://www.linkedin.com/in/patrick-belfort-91253b200/" target="_blank" class="mx-2">
-                  <Iconlinkedin id="Iconlinkedin"/>
+                  <Iconlinkedin id="Iconlinkedin" />
             </a>
             <a href="https://github.com/Marquesjob" target="_blank" class="mx-2">
-                  <Icongithub id="Icongithub"/>
-            </a> 
+                  <Icongithub id="Icongithub" />
+            </a>
       </div>
 
       <div id="profile__description" class="row g-4 pt-5 row-cols-1 row-cols-lg-3 text-center justify-content-center">
@@ -72,87 +72,96 @@
                         <strong class="fw-bold">DB</strong>.
                         possuo 2 experiências como FreeLancer Front-End utilizando
                         tecnologias
-                        como <strong class="fw-bold"> Angular</strong> e <strong class="fw-bold">Ionic</strong><br/>
+                        como <strong class="fw-bold"> Angular</strong> e <strong class="fw-bold">Ionic</strong><br />
                         (para saber mais sobre as experiências, baixe o curriculo).
                   </p>
             </div>
       </div>
 
       <div class="profile__buttons">
-        <a style="text-decoration: none;" href="./assets/doc/Curriculo.pdf" class="d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-5 mx-auto" download="Curriculo Patrick Belfort">
-          <button id="profile__button__download" class="btn btn-light border-0" type="submit"><p class="__font fs-6 p-0 m-0">Baixar Curriculo</p></button>
-        </a>
-        <a href=" https://wa.me/552199228610" target="_blank" class=" d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-2 mx-auto ">
-          <button id="profile__button__wpp" class="btn btn-light border-0" type="button"><Iconwhatsapp id="Iconwhatsapp"/></button>
-        </a>
+            <a style="text-decoration: none;" href="./assets/doc/Curriculo.pdf"
+                  class="d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-5 mx-auto"
+                  download="Curriculo Patrick Belfort">
+                  <button id="profile__button__download" class="btn btn-light border-0" type="submit">
+                        <p class="__font fs-6 p-0 m-0">Baixar Curriculo</p>
+                  </button>
+            </a>
+            <a href=" https://wa.me/552199228610" target="_blank"
+                  class=" d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-2 mx-auto ">
+                  <button id="profile__button__wpp" class="btn btn-light border-0" type="button">
+                        <Iconwhatsapp id="Iconwhatsapp" />
+                  </button>
+            </a>
       </div>
 
 </template>
 
 <script>
 
-      import Iconinstagram from "./icons/Iconinstagram.vue";
-      import Iconlinkedin from "./icons/Iconlinkedin.vue";
-      import Icongithub from "./icons/Icongithub.vue";
-      import Iconwhatsapp from "./icons/Iconwhatsapp.vue";
+import Iconinstagram from "./icons/Iconinstagram.vue";
+import Iconlinkedin from "./icons/Iconlinkedin.vue";
+import Icongithub from "./icons/Icongithub.vue";
+import Iconwhatsapp from "./icons/Iconwhatsapp.vue";
 
-      export default {
-            components: {
-                  Iconinstagram,
-                  Iconlinkedin,
-                  Icongithub,
-                  Iconwhatsapp,
-
-            }     
+export default {
+      components: {
+            Iconinstagram,
+            Iconlinkedin,
+            Icongithub,
+            Iconwhatsapp,
       }
+}
 
 </script>
 
 <style>
+.__title--primary {
+      font-family: var(--primary-font);
+      color: var(--shadow-color-font);
+}
 
-      .__title--primary {
-            font-family: var(--primary-font);
-            color: var(--shadow-color-font);
-      }
+.__title--secondary {
+      font-family: var(--primary-font);
+      color: var(--light-color-font);
+      font-size: 13px;
+      font-weight: bold;
+}
 
-      .__title--secondary {
-            font-family: var(--primary-font);
-            color: var(--light-color-font);
-            font-size: 13px;
-            font-weight: bold;
-      }
+.__title--terciary {
+      font-family: var(--primary-font);
+      color: var(--shadow-color-font);
+}
 
-      .__title--terciary {
-            font-family: var(--primary-font);
-            color: var(--shadow-color-font);
-      }
-
-      .__font {
-            font-family: var(--primary-font);
-      }
-
-
-      .profile__icons__item {
-            color: var(--light-color-font);
-      }
+.__font {
+      font-family: var(--primary-font);
+}
 
 
-      #Iconinstagram, #Icongithub, #Iconlinkedin {
-           color:var(--shadow-color-font);
-      }
+.profile__icons__item {
+      color: var(--light-color-font);
+}
 
-      #Iconinstagram:hover, #Icongithub:hover, #Iconlinkedin:hover {
-            color: var(--shadow-color-max);
-            transition: all 0.3s ease;
-      }
 
-      #Iconwhatsapp {
-            fill:rgb(36, 36, 36);
-      }
+#Iconinstagram,
+#Icongithub,
+#Iconlinkedin {
+      color: var(--shadow-color-font);
+}
 
-      #profile__button__download:hover, #profile__button__wpp:hover {
-            background-color: var(--light-link-efect);
-            transition: all 0.5s ease;
-      }
+#Iconinstagram:hover,
+#Icongithub:hover,
+#Iconlinkedin:hover {
+      color: var(--shadow-color-max);
+      transition: all 0.3s ease;
+}
 
+#Iconwhatsapp {
+      fill: rgb(36, 36, 36);
+}
+
+#profile__button__download:hover,
+#profile__button__wpp:hover {
+      background-color: var(--light-link-efect);
+      transition: all 0.5s ease;
+}
 </style>
