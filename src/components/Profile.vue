@@ -73,19 +73,19 @@
                         possuo 2 experiências como FreeLancer Front-End utilizando
                         tecnologias
                         como <strong class="fw-bold"> Angular</strong> e <strong class="fw-bold">Ionic</strong><br />
-                        <!-- (para saber mais sobre as experiências, baixe o curriculo). -->
+                        (para saber mais sobre as experiências, baixe o curriculo).
                   </p>
             </div>
       </div>
 
       <div class="profile__buttons">
-            <!-- <a style="text-decoration: none;" href="../../public/files/curriculo.pdf"
+            <a style="text-decoration: none;" href="#"
                   class="d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-5 mx-auto"
-                  download>
+                  >
                   <button id="profile__button__download" class="btn btn-light border-0" type="submit">
                         <p class="__font fs-6 p-0 m-0">Baixar Curriculo</p>
                   </button>
-            </a> -->
+            </a>
             <a href=" https://wa.me/552199228610" target="_blank"
                   class=" d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-2 mx-auto ">
                   <button id="profile__button__wpp" class="btn btn-light border-0" type="button">
