@@ -14,8 +14,8 @@ const projects = [
 
     {   
         title:'Comment Box - 2022',
-        linkRepo: 'https://github.com/Marquesjob/interface-wpp-vuejs',
-        linkView: 'https://interface-wpp-vuejs.web.app/',
+        linkRepo: 'https://github.com/Marquesjob/coment-box-vuejs',
+        linkView: 'https://coment-box-vuejs.web.app/',
         description: 'Caixa de comentários no estilo todo-list feita com Vuejs e Bootstrap, explorando recursos como; Event Handing, props e diretivas.',
     },
 
