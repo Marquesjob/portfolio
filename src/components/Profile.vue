@@ -79,7 +79,7 @@
       </div>
 
       <div class="profile__buttons">
-            <a style="text-decoration: none;" href="/curriculo.pdf?import"
+            <a style="text-decoration: none;" href="/curriculo.pdf"
                   class="d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-5 mx-auto"
                   download>
                   <button id="profile__button__download"  class="btn btn-light border-0" type="submit">
