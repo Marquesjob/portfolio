@@ -79,11 +79,11 @@
       </div>
 
       <div class="profile__buttons">
-            <a style="text-decoration: none;" :href="item.loc"
+            <a style="text-decoration: none;" href="/curriculo.pdf"
                   class="d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-5 mx-auto"
                   download>
                   <button id="profile__button__download"  class="btn btn-light border-0" type="submit">
-                        <p class="__font fs-6 p-0 m-0">{{item.title}}</p>
+                        <p class="__font fs-6 p-0 m-0">{{ item.title }}</p>
                   </button>
             </a>
             <a href=" https://wa.me/552199228610" target="_blank"
@@ -102,7 +102,7 @@ import Iconinstagram from "./icons/Iconinstagram.vue";
 import Iconlinkedin from "./icons/Iconlinkedin.vue";
 import Icongithub from "./icons/Icongithub.vue";
 import Iconwhatsapp from "./icons/Iconwhatsapp.vue";
-import curriculo from "../../public/curriculo.pdf"
+import curriculo from "/curriculo.pdf"
 
 export default {
 
