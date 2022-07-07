@@ -108,7 +108,7 @@ export default {
 
       data () {
            return {
-                   doc: {title: 'Baixar Curriculo', loc: '/Curriculo.pdf'}
+                   doc: {title: 'Baixar Curriculo', loc: '/curriculo.pdf'}
            }
       },
 
