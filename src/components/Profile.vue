@@ -127,6 +127,10 @@ export default {
 </script>
 
 <style>
+
+img {
+      width: 150px !important;
+}
 .__title--primary {
       font-family: var(--primary-font);
       color: var(--shadow-color-font);

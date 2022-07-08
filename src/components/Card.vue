@@ -59,7 +59,7 @@ a {
     width: 295px !important;
     height: 290px !important;
     box-sizing: border-box;
-    background: rgb(129, 138, 223);
+    background: rgb(80, 85, 134);
     fill: #f8f9fa;
 }
 
