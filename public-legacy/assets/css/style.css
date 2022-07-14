@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+:root {
+    --shadow-color-max: #778ee2;
+    --shadow-color-medium: #91a7e9;
+    --shadow-color-minimal: #abbff1;
+    --shadow-color-font: #222222;
+    --shadow-light-font: #444c55;
+    --light-color-medium: #c4d8f8;
+    --light-color-max: #fafdff;
+    --light-color-font: #657481;
+    --light-link-efect: #cecece;
+  
+    --primary-font: 'Poppins', sans-serif;
+}
+
+.wave__ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.wave__ svg {
+    position: relative;
+    display: block;
+    width: 4200px; /*removida responsividade das waves*/
+    height: 292px;
+    transform: rotateY(180deg);
+}
+
+.wave__ .shape-fill {
+    fill: var(--shadow-color-max);
+}
+
+.__title--primary {
+    font-family: var(--primary-font);
+    color: var(--shadow-color-font);
+}
+
+.__title--secondary {
+    font-family: var(--primary-font);
+    color: var(--light-color-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.__title--terciary {
+    font-family: var(--primary-font);
+    color: var(--shadow-color-font);
+}
+
+.__font {
+    font-family: var(--primary-font);
+
+}
+
+.__buttons--background {
+    background: var(--shadow-color-max);
+}
+
+#profile__button__download:hover  {
+    background: var(--shadow-color-minimal);
+    transition: all 0.3s ease;
+}
+
+
+.title__divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__divider::before,
+.title__divider::after {
+    content: '';
+    position: relative;
+    height: 1px;
+    background: rgb(167, 167, 167);
+    min-width: 50px;
+    flex-grow: 1;
+}
+
+.title__divider span {
+    color: rgb(51, 51, 51);
+    padding: 0 15px;
+}
+
+.skills--font {
+    font-family: var(--primary-font);
+    color: var(--shadow-light-font);
+}
+
+.profile__icons-hover:hover {
+    stroke: var(--shadow-color-max);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.projects__button:hover {
+    cursor: none;
+}
+
+
+#projects__button__linkIcon:hover, #profile__button__wpp:hover, #projects__button__gitIcon:hover {
+    background-color: var(--light-link-efect);
+    transition: all 0.3s ease;
+}
+
