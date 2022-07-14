@@ -1,5 +1,11 @@
 const projects = [
     {   
+        title:'GetHub - 2022',
+        linkRepo: 'https://github.com/Marquesjob/gethub',
+        linkView: 'https://ogethub.web.app/',
+        description: 'Projeto pessoal que busca repositórios git de um perfil especificado. Interface desenvolvida com Vuejs e CSS. Requisições feitas atráveis do cliente HTTP Axios.',
+    },
+    {   
         title:'Portfólio - 2022',
         linkRepo: 'https://github.com/Marquesjob/portfolio',
         linkView: 'https://patrick-b-marques.web.app/',
