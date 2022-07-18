@@ -15,7 +15,7 @@ const projects = [
         title:'Whatsapp Web - 2022',
         linkRepo: 'https://github.com/Marquesjob/interface-wpp-vuejs',
         linkView: 'https://interface-wpp-vuejs.web.app/',
-        description: 'Clone da interface do Whatsapp Web que simula troca de mensagens. Feito com Vuejs e Bulma(CSS), explorando recursos como; diretivas, props e variaveis por meio da reatividade.',
+        description: 'Clone da interface do Whatsapp Web que simula troca de mensagens. Feito com Vuejs e Bulma(CSS), explorando recursos como; diretivas, props, Event Handing e variaveis por meio da reatividade.',
     },
 
     {   
