@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+:root {
+    --shadow-color-max: #2f48a1;
+    --shadow-color-medium: #91a7e9;
+    --shadow-color-minimal: #abbff1;
+    --shadow-color-font: #222222;
+    --shadow-light-font: #444c55;
+    --light-color-medium: #c4d8f8;
+    --light-color-max: #fafdff;
+    --light-color-font: #657481;
+    --light-link-efect: #e3e7ff;
+
+    --primary-font: 'Poppins', sans-serif;
+}
+
+.wave__ {
+    transition: none;
+    animation: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.wave__ svg {
+    transition: none;
+    animation: none;
+    position: relative;
+    display: block;
+    width: 4200px; /*removida responsividade das waves*/
+    height: 292px;
+    transform: rotateY(180deg);
+}
+
+.wave__ .shape-fill {
+    animation: none;
+    transition: none;
+    fill: var(--shadow-color-max);
+    
+}
+
