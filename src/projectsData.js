@@ -1,5 +1,12 @@
 const projects = [
     {   
+        title:'Date Formatter - 2022',
+        linkRepo: 'https://github.com/Marquesjob/date-formatter',
+        linkView: 'https://datefomatter.web.app/',
+        description: "Projeto pessoal que formata datas recebidas no formato 'UTC - ISO 8601' para o UTC-3 que é o formato oficial do Brasil. Desenvolvido com vuejs, Javascript e CSS",
+    },
+
+    {   
         title:'GetHub - 2022',
         linkRepo: 'https://github.com/Marquesjob/gethub',
         linkView: 'https://ogethub.web.app/',
