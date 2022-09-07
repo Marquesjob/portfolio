@@ -1,5 +1,12 @@
 const projects = [
     {   
+        title:'Password Checker - 2022',
+        linkRepo: 'https://github.com/Marquesjob/password-checker',
+        linkView: 'https://thepasswordchecker.web.app/checkpassword',
+        description: "Projeto que simula um serviço de autenticação. Desenvolvido para a apresentação em uma entrevista técnica para a empresa FengBrasil. Desenvolvido no framework Angular.",
+    },
+
+    {   
         title:'Date Formatter - 2022',
         linkRepo: 'https://github.com/Marquesjob/date-formatter',
         linkView: 'https://datefomatter.web.app/',
@@ -18,6 +25,8 @@ const projects = [
         linkView: 'https://patrick-b-marques.web.app/',
         description: 'Inicialmente feito com Javascript Vanilla, HTML e CSS puros. Atualmente utilizando VueJS e Bootstrap para a evolução do template.',
     },
+
+    
     {   
         title:'Whatsapp Web - 2022',
         linkRepo: 'https://github.com/Marquesjob/interface-wpp-vuejs',
