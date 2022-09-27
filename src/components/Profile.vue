@@ -21,7 +21,7 @@
       </div>
 
       <div id="profile__icons" class="transition d-flex justify-content-center">
-            <a href="https://www.instagram.com/sagazvlr/" target="_blank" class="mx-2">
+            <a href="https://www.instagram.com/0/0" target="_blank" class="mx-2">
                   <Iconinstagram id="Iconinstagram" />
             </a>
             <a href="https://www.linkedin.com/in/patrick-belfort-91253b200/" target="_blank" class="mx-2">
