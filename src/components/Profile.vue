@@ -21,7 +21,7 @@
       </div>
 
       <div id="profile__icons" class="transition d-flex justify-content-center">
-            <a href="https://www.instagram.com/0/0" target="_blank" class="mx-2">
+            <a href="https://www.instagram.com/patrickmarques__" target="_blank" class="mx-2">
                   <Iconinstagram id="Iconinstagram" />
             </a>
             <a href="https://www.linkedin.com/in/patrick-belfort-91253b200/" target="_blank" class="mx-2">
@@ -86,7 +86,7 @@
                         <p class="__font fs-6 p-0 m-0">{{ doc.title }}</p>
                   </button>
             </a>
-            <a href=" https://wa.me/552199228610" target="_blank"
+            <a href=" https://wa.me/5521996585143" target="_blank"
                   class=" d-grid gap-2 col-12 col-sm-6 col-md-4 col-lg-4 mt-2 mx-auto ">
                   <button id="profile__button__wpp" class="btn btn-light border-0" type="button">
                         <Iconwhatsapp id="Iconwhatsapp" />
