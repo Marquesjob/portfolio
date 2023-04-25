@@ -19,14 +19,14 @@
       </div>
 
       <div id="profile__icons" class="transition d-flex justify-content-center">
-            <a href="https://www.instagram.com/patrickbmarques__" target="_blank" class="mx-2">
-                  <Iconinstagram id="Iconinstagram" />
+            <a href="https://www.instagram.com/patrickmarques__" target="_blank" class="mx-2">
+                  <Iconinstagram id="Iconinstagram"/>
             </a>
             <a href="https://www.linkedin.com/in/patrick-belfort-91253b200/" target="_blank" class="mx-2">
-                  <Iconlinkedin id="Iconlinkedin" />
+                  <Iconlinkedin id="Iconlinkedin"/>
             </a>
             <a href="https://github.com/Marquesjob" target="_blank" class="mx-2">
-                  <Icongithub id="Icongithub" />
+                  <Icongithub id="Icongithub"/>
             </a>
       </div>
 
