@@ -3,7 +3,7 @@
       <div id="profile__picture" class="transition  d-flex justify-content-center
           align-content-center mb-3">
             <img src="../assets/img/me.jpg" class="transition img-thumbnail rounded-circle mx-4
-            border border-3 border-light" alt="...">
+           " alt="...">
       </div>
 
       <div id="profile__name" class="transition d-flex justify-content-center mb-2">
@@ -128,6 +128,7 @@ export default {
 
 img {
       width: 150px !important;
+      border-color: var(--full-lighted)!important;
 }
 .__title--primary {
       font-family: var(--primary-font);
@@ -154,6 +155,7 @@ img {
 .profile__icons__item {
       color: var(--light-color-font);
 }
+
 
 
 #Iconinstagram,

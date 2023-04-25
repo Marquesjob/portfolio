@@ -22,7 +22,7 @@
       spaceBetween: 50,
     },
   }" :modules="modules"
-  class="mySwiper container my-5">
+  class="mySwiper container-fluid container-lg--custom my-5">
 
     <swiper-slide v-for="project in projects">
       <Card 
@@ -68,6 +68,13 @@ export default {
 };
 </script>
 <style>
+
+.container-lg--custom {
+  @media(min-width: 1400px){
+    max-width: 1320px !important;
+  }
+}
+
 .swiper {
   width: 100%;
   height: 100%;

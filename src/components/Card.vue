@@ -37,6 +37,7 @@ export default {
 .card-header {
     background-color: #f8f9fa !important; 
 }
+
 textarea {
     height: 8.0em !important;
 }
